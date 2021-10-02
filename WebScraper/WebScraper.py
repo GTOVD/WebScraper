@@ -3,9 +3,6 @@ import pandas as pd
 from bs4 import BeautifulSoup, element
 from selenium import webdriver
 
-session_key = "vickerst10@gmail.com"
-session_password = "#EDC2wsx1qaz"
-
 driver = webdriver.Chrome(
     executable_path='C:/Users/vicke/Downloads/chromedriver.exe')
 
