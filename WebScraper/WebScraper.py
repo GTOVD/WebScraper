@@ -3,19 +3,17 @@ import pandas as pd
 from bs4 import BeautifulSoup, element
 from selenium import webdriver
 import requests
-from WebScraper.pram import credentials
+# from WebScraper.pram import credentials
 
-<<<<<<< HEAD
 # chrome_options = webdriver.ChromeOptions()
 # chrome_options.add_experimental_option("detach", True)
 # chrome_options.add_argument('--incognito')
 
 # session_key = credentials['username']
 # session_password = credentials['password']
-=======
-driver = webdriver.Chrome(
-    executable_path='C:/Users/vicke/Downloads/chromedriver.exe')
->>>>>>> 5459fb805da97599fd2d07beed21d377797f3ecc
+
+# driver = webdriver.Chrome(
+#     executable_path='C:/Users/vicke/Downloads/chromedriver.exe')
 
 # driver = webdriver.Chrome(
 #     executable_path='C:/Users/vicke/Downloads/chromedriver.exe')
